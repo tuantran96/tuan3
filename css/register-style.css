@@ -1,0 +1,52 @@
+*{
+	font-family: "Arial";
+}
+.form_register{
+	max-width: 500px;
+	margin: 100px auto;
+	border: 1px solid #828282;
+	padding: 30px 20px;
+	border-radius: 5px;
+}
+
+.form_register h2{
+	text-align: center;
+	font-size: 32px;
+	margin-top: 0;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+.form-group label{
+	display: block;
+	font-size: 18px;
+}
+
+.form-group p{
+	color: red;
+	font-size: 16px;
+	display: none;
+	margin-top: 0;
+}
+
+.form-control{
+	width: 100%;
+	margin-top: 5px;
+	height: 25px;
+	font-size: 16px;
+}
+
+.form-btn{
+	text-align: center;
+}
+
+.btn{
+	font-size: 18px;
+	padding: 10px 25px;
+	background-color: blue;
+	border: 1px solid blue;
+	border-radius: 10px;
+	color: white;
+}

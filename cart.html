@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Giỏ hàng</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/cart-style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="up">
+			<div class="up-1">
+				<i class="fas fa-phone-square-alt"></i>
+				<p>0946.666.666</p>
+			</div>
+			<div class="up-2">
+				<ul>
+					<li>
+						<a href="">Kiểm tra đăng kí lái thử và mua xe</a>
+					</li>
+					<li>
+						<a href="">Đăng kí</a>
+					</li>
+					<li>
+						<a href="">Đăng nhập</a>
+					</li>
+					<li>
+						<a href="">Giỏ hàng</a>
+					</li>					
+				</ul>
+			</div>
+		</div>
+			
+	</div>
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="#">Trang chủ</a>
+			</li>
+			<li>
+				<a href="#">Sản phảm</a>
+			</li>
+			<li>
+				<a href="#">Giới thiệu</a>
+			</li>
+			<li>
+				<a href="#">Tin tức</a>
+			</li>
+			<li>
+				<a href="file:///D:/frontend28/bbb/contact.html">Liên hệ</a>
+			</li>				
+		</ul>
+	</div>
+	<div class="slider">
+		<img src="./images/xe1.jpg" width="100%">
+	</div>
+	<div class="cart">
+		<h2 class="cart-title">Giỏ hàng</h2>
+		<div class="product-in-cart">
+			<div class="product-info">
+				<a href="#">
+						<img src="./images/xe2.jpg" width="200px">
+				</a>
+				<div class="desc">
+					<h3>
+						<a href="">Automobili Lamborghini</a>
+					</h3>
+					<p>Automobili Lamborghini S.p.A  là nhà sản xuất siêu xe thể thao cao cấp của Italy, có trụ sở chính và xưởng sản xuất đặt tại Sant' Agata Bolognese, gần Bologna, Italy. Hiện tại Lamborghini là công ty con thuộc tập đoàn ô tô lớn nhất thế giới Volkswagen AG của Đức. Lamborghini chính thức phân phối chính hãng tại Việt Nam từ tháng 05/2014. Các dòng siêu xe của Lamborghini nổi tiếng như: Aventador, Huracan, Sian.</p>
+					<p class="price">500.000đ
+						<input type="hidden" class="price_product" name="" value="500000">
+					</p>
+				</div>
+			</div>
+			<div class="action">
+					<button class="btn-delete">
+						x
+					</button>
+					<div class="number_product">
+						<button class="btn-cart btn-up" data-type="up"><i class="fas fa-angle-up"></i></button>
+						<input type="text" name="" value="1">
+						<button class="btn-cart btn-down" data-type="down"><i class="fas fa-angle-down"></i></i></button >
+					</div>
+					<div class="item-total-price">
+						<span>500.000đ</span>
+						<input type="hidden" value="500000" name="">
+					</div>
+			</div>
+			<div class="total-price">
+				<span>Tổng tiền: </span><span id="total" class="total-class">500.000$</span>
+			</div>
+			<div class="pay">
+				<button type="button" class="pay-pay">Thanh toán</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+</html>

@@ -1,0 +1,353 @@
+*{
+	font-family: "Arial";
+}
+.header{
+	height: 50px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.nav{
+	background-color: blue;
+	height: 50px;
+}
+.slider{
+	background-color: white;
+	height: 400px;
+	
+}
+.slider img{
+	object-fit: cover;
+	width: 100%;
+	height: 450px;
+}
+.main{
+	height: 1328px;
+	margin-top: 60px;
+	background-color: white;
+}
+
+.footer{
+	height: 300px;
+	
+}
+.header .up{
+	height: 50px;
+	
+}
+.header .down{
+	height: 40px;
+	background-color: black;
+}
+.header .up-1{
+	display: flex;
+	color: red;
+	font-size: 20px;
+	float: left;
+}
+.header .up-1 i{
+	padding-top: 20px;
+	padding-right: 8px;
+	padding-left: 10px;
+}
+.header .up-2{
+	float: right;
+	margin-left: 500px;
+
+}
+.header .up-2 ul{
+	font-size: 15px;
+	display: flex;
+
+}
+.up-2 ul li{
+	padding-right: 20px;
+	list-style-type: none;
+
+}
+.up-2 ul li a{
+	text-decoration: none;
+}
+.header .down{
+	height: 50px;
+	background-color: pink;
+}
+
+.nav ul{
+	display: flex;
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	max-width: 1000px;
+	text-align: center;
+
+
+}
+.nav ul li{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	padding: 15px 20px;
+
+}
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+.nav ul li:hover{
+	background-color: red;
+}
+.product-list{
+	height: 400px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+	/*border: 1px solid #282828;*/
+}
+.product-list .item:hover{
+	border: 3px solid #aa9b77;
+}
+.product-list .item:hover img{
+	transform: scale(1.05);
+	transition: 1s;
+}
+.item{
+	height: 390px;
+	width: calc(100%/5);
+	margin-right: 10px;
+	margin-left: 20px;
+	
+	
+	border: 1px solid #F2F2F2;	
+}
+.item h3{
+	list-style-type: none;
+	color: black;
+	padding-left: 10px;
+
+}
+.evaluate img{
+	font-size: 20px;
+}
+.product-list .item img{
+	padding: 10px 30px;
+}
+.item .price p {
+	color: red;
+	margin-left: 10px;
+}
+.item .price span{
+	color: gray;
+	text-decoration: line-through;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.item .cart{
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+.item .cart i{
+	border: 1px solid #282828;
+	padding: 5px 10px;
+}
+.item .desc p{
+	 overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.next{
+	height: 100px;
+	background-color: white;
+	/*float: right;*/
+	padding-top: 8px;
+	padding-right: 60px;
+	font-size: 20px;
+	text-align: center;
+	color: #FF8000;
+}
+.sl1{
+	height: 300px;
+
+}
+.sl1 img{
+	object-fit: cover;
+	width: 100%;
+	height: 400px;
+}
+
+ .pro-list-v2{
+	height: 500px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+	/*border: 1px solid #282828;*/
+}
+.pro-list-v2 .item1:hover{
+	border: 3px solid #aa9b77;
+}
+.pro-list-v2 .item1:hover img{
+	transform: scale(1.05);
+	transition: 1s;
+}
+.item1{
+	height: 390px;
+	width: calc(100%/5);
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-top: 90px;
+	border: 1px solid #F2F2F2;	
+}
+.item1 h3{
+	list-style-type: none;
+	color: black;
+	padding-left: 10px;
+
+}
+.evaluate1 img{
+	font-size: 20px;
+}
+.pro-list-v2 .item1 img{
+	padding: 10px 30px;
+}
+.item1 .price p {
+	color: red;
+	margin-left: 10px;
+}
+.item1.price span{
+	color: gray;
+	text-decoration: line-through;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.item1 .cart{
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+.item1 .cart i{
+	border: 1px solid #282828;
+	padding: 5px 10px;
+}
+.item1 .desc p{
+	 overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.partner{
+	height: 100px;
+	background-image: url(../images/f1.jpg);
+}
+.partner .title{
+	font-size: 25px;
+	text-align: center;
+}
+.logo{
+	display: flex;
+	justify-content: space-around;
+}
+#p1{
+	margin-top: 20px;
+}
+#p2{
+	margin-top: 20px;
+}
+.footer{
+	display: flex;
+	justify-content: space-around;
+	color: gray;
+	margin-top: 30px;
+}
+.footer .title{
+	font-size: 20px;
+	color: #FE642E;
+	
+}
+.footer i{
+	padding-top: 18px;
+	padding-right: 5px;
+}
+.footer .g1{
+	display: flex;
+}
+
+.footer .g2{
+	display: flex;
+}
+.footer .g3{
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
